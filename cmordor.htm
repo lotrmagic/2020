@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body style="background-image: url('arnorForest.jpg');">
+<body>
 
 <head> 
   <link rel="stylesheet" type="text/css" href="formatlotr.css">
@@ -16,14 +16,9 @@
   <li><a href="cmtdoom.htm">Day 7</a></li>
  </ul>
 
-<h1></h1> <br>
-<p1>Aramdir: I don't speak plant.</p1> <br>
-<p2>Tree: Pst pst...</p2> <br>
-<p3>Aramdir: Hello?? Does anyone know where my horse is?</p3> <br>
-<p4>Another tree: Heh, of course. But you've got to solve our little puzzle first. It's for...</p4> <br>
+<p id="elvish">My take on the classic number cypher :)</p>
 
-<p5>ornno rotog hometai</p5>
-
+<h1>31412523919</h1>
 <form>
     <label for="pswd">Answer:</label>
     <input type="password" id="pswd">
@@ -31,17 +26,16 @@
 </form>
 <script type="text/javascript">
 function checkPswd() {
+        var confirmPassword = "cnlewis";
         var password = document.getElementById("pswd").value;
-        if (password == "you" || password == "gin") {
-             window.location="arnorLeaving.htm";
+        if (password == confirmPassword || password == "CNLewis") {
+             window.location="mordor.htm";
         }
         else{
-            alert("Hmm...that's not quite right.");
+            alert("Not that one unfortunately");
         }
     }
 </script>
-
-<a href="arnorLeave.htm"></a>
 <br>
 <p3></p3>
 
@@ -49,7 +43,7 @@ function checkPswd() {
 <br>
 
 
-
+<hr>
 <footer>
 	<p4>Updated Nov 2020</p4>
  </footer>
