@@ -16,9 +16,9 @@
   <li><a href="cmtdoom.htm">Day 7</a></li>
  </ul>
 
-<p id="elvish">It must be more elvish!</p>
+<p id="elvish">You've got this. Hopefully, this LAST password is easy for you!</p>
 
-<h1>Quien tiene un amigo tiene...</h1>
+<h1>Hint: proper sentence with 5 words</h1>
 <form>
     <label for="pswd">Answer:</label>
     <input type="password" id="pswd">
@@ -26,13 +26,13 @@
 </form>
 <script type="text/javascript">
 function checkPswd() {
-        var confirmPassword = "tesoro";
+        var confirmPassword = "You always make me smile.";
         var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
-             window.location="shire.htm";
+        if (password == confirmPassword || password == "CNLewis") {
+             window.location="mtdoom.htm";
         }
         else{
-            alert("Lo siento, te has equivocado :(");
+            alert("Not that one unfortunately");
         }
     }
 </script>
