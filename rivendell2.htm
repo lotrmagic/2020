@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body style="background-image: url('stonewall.jpg');">
 
 <head> 
   <link rel="stylesheet" type="text/css" href="formatlotr.css">
@@ -16,9 +16,13 @@
   <li><a href="cmtdoom.htm">Day 7</a></li>
  </ul>
 
-<p id="elvish"></p>
+<h1>Entrance</h1>
 
-<h1>Crossword puzzle (i had to use it as a password somewhere)</h1>
+<p>Guard: Hey you, where do you think you are going?</p>
+<p>Aramdir: I have permission from Aragorn to get supplies.</p>
+<p>Guard: That's what all the thieves say. But, there is one question they never can answer. You may enter if you can answer correctly. What do these words have in common?</p>
+<p>coconut, coffee, carrot, cheese, cup, chocolate</p>
+
 <form>
     <label for="pswd">Answer:</label>
     <input type="password" id="pswd">
@@ -26,13 +30,13 @@
 </form>
 <script type="text/javascript">
 function checkPswd() {
-        var confirmPassword = "THECAT";
+        var confirmPassword = "cake";
         var password = document.getElementById("pswd").value;
-        if (password == confirmPassword || password == "THEcat" || password == "thecat") {
-             window.location="rivendell.htm";
+        if (password == confirmPassword || password == "CAKE" || password == "Cake") {
+             window.location="rivendell3.htm";
         }
         else{
-            alert("Hmm not quite right");
+            alert("Yep that's what the thieves say!");
         }
     }
 </script>
@@ -45,7 +49,7 @@ function checkPswd() {
 
 <hr>
 <footer>
-	<p4>Updated Nov 2020</p4>
+	<p4>Updated Aug 2020</p4>
  </footer>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body style="background-image: url('rope.jpg');">
 
 <head> 
   <link rel="stylesheet" type="text/css" href="formatlotr.css">
@@ -16,9 +16,14 @@
   <li><a href="cmtdoom.htm">Day 7</a></li>
  </ul>
 
-<p id="elvish"></p>
+<h1>3rd-->4th level</h1>
 
-<h1>Crossword puzzle (i had to use it as a password somewhere)</h1>
+<p></p>
+<p>Clerk: Can I get you anything?</p>
+<p>Aramdir: No that's all right. I just need a rope.</p>
+<p>Clerk: Do you know how to weave? I only have the material. </p>
+<p>Aramdir: I can play with string. I think I can _____ it like Aragorn told me to.</p>
+
 <form>
     <label for="pswd">Answer:</label>
     <input type="password" id="pswd">
@@ -26,13 +31,13 @@
 </form>
 <script type="text/javascript">
 function checkPswd() {
-        var confirmPassword = "THECAT";
+        var confirmPassword = "make";
         var password = document.getElementById("pswd").value;
-        if (password == confirmPassword || password == "THEcat" || password == "thecat") {
-             window.location="rivendell.htm";
+        if (password == confirmPassword || password == "MAKE" || password == "Make") {
+             window.location="rivendellLeaving.htm";
         }
         else{
-            alert("Hmm not quite right");
+            alert("Not quite the answer.");
         }
     }
 </script>
