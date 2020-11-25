@@ -18,13 +18,11 @@
 
 <h1>Welcome to the Shire!</h1>
 
-<p>Aramdir: All right! I must choose the correct path.</p>
-<p>Entering the correct passcode with choose the direction (b/c I can't code lol).</p>
+<p>Aramdir will choose the correct way because she is... (hint: password is 1 word lowercase)</p>
+<p>paCkets Rs Lunch Elvish lotR gAteway nOtlost Today nhS hAckathon tWolves hamiLton Collages cringeYvideo</p>
+
 <br>
-<p>Go west {evern}</p>
-<p>Go south {noce}</p>
-<p>Go north {evern}</p>
-<p>Go east {alysaw}</p>
+
 <form>
     <label for="pswd">Answer:</label>
     <input type="password" id="pswd">
@@ -34,7 +32,7 @@
 function checkPswd() {
         var confirmPassword = "always";
         var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
+        if (password == confirmPassword || password=="allways") {
              window.location="shire4.htm";
         }
         else{
