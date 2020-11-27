@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body style="background-image: url('mirkwood1.jpg');">
 
 <head> 
   <link rel="stylesheet" type="text/css" href="formatlotr.css">
@@ -16,31 +16,31 @@
   <li><a href="cmtdoom.htm">Day 7</a></li>
  </ul>
 
-<p id="elvish"></p>
+<h1>Elf 4</h1>
 
-<h1>Gaduan actually wrote a chapter of Legolas's story. Which chapter did he write? (Enter a number)</h1>
+<br>
+<p>Elf 4: Mystery with the dog guy</p>
+<p>Aramdir: Which one?</p>
 <form>
     <label for="pswd">Answer:</label>
     <input type="password" id="pswd">
-    <input type="button" value="Submit" onclick="checkPswd();"/>
+    <input type="button" value="Submit" onclick="checkPswd();" />
 </form>
 <script type="text/javascript">
-function checkPswd() {
-        var confirmPassword = "5";
+    function checkPswd() {
+        var confirmPassword = "Audrey";
         var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
-             window.location="rohan.htm";
+        if (password == confirmPassword || password=="audrey") {
+             window.location="rohan7.htm";
         }
         else{
-            alert("Not that one unfortunately");
+            alert("Try again :(");
         }
     }
 </script>
 <br>
-<p3></p3>
+<br>
 
-<br>
-<br>
 
 <hr>
 <footer>
